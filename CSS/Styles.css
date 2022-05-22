@@ -1,0 +1,90 @@
+
+body,h1,h2,h3,h4,h5,h6 {font-family: "Ubuntu", sans-serif;}
+body, html {
+  height: 100%;
+  width: 100%;
+  color: rgb(0, 0, 0);
+  line-height: 1.8;
+  margin: 0%;
+}
+
+/* Create a Parallax Effect
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}*/
+
+.myName {
+  position: absolute;
+  top: 250px;
+  right: 70px;
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+img{
+  position: relative;
+  height: 550px;
+  width: 100%;
+}
+
+/* First image (Logo. Full height)*/
+Div.bgimg-1{
+  height: 100px;
+}
+
+.contact{
+  padding-bottom: 20px;
+  font-family: "Ubuntu";
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+  background-image: url("/w3images/parallax2.jpg");
+  min-height: 400px;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+  background-image: url("Images/backgound.png");
+  min-height: 400px;
+  background-position: center;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+.w3-sand{
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  font-size: 16px;
+  font-family: "Ubuntu", sans-serif;
+  line-height: 1.8;
+  box-sizing: border-box;
+  text-align: center!important;
+  padding-top: 16px;
+  padding-bottom: 10px;
+
+  color: #000!important;
+  background-color: #fdf5e8!important;
+}
+
+
+
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1600px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+    min-height: 500px;
+  }
+}
+@media only screen and (max-device-width: 1600px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+    min-height: 500px;
+  }
+}
